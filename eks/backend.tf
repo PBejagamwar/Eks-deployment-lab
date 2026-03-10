@@ -11,7 +11,7 @@ terraform {
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     encrypt        = true
-    use_lockfile = true
+    use_lockfile   = true
   }
 }
 
